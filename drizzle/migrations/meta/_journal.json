@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789380556833,
+      "tag": "0000_create_libraries",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789795719401,
+      "tag": "0001_gate_libraries_departments_sections_stations_docs_roles",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789796368263,
+      "tag": "0002_fix_libraries_public_policy_revoke_create_app_role",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789803655625,
+      "tag": "0003_create_app_role_service_role_only",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789811122108,
+      "tag": "0004_director_only_audit_and_org_settings",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1789812994165,
+      "tag": "0005_hr_editor_scoped_document_editing",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1790245840074,
+      "tag": "0006_tighten_faq_org_settings_select",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1790246718807,
+      "tag": "0007_profiles_last_login_at",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+================================================================================
+                      ORIENTAL TEA HOUSE - MOCK DATASET
+================================================================================
+
+COMPANY NAME: Oriental Tea House
+DESCRIPTION: Complete handbook contents and worker roster for Oriental Tea,
+             featuring department-scoped handbook visibility and employee roles.
+
+================================================================================
+1. WORKER ROSTER LIST
+================================================================================
+
+[Management Department]
+- Employee ID : DIR001
+  Name        : Dana Chen
+  Email       : director@orientaltea.com
+  Password    : director123
+  Department  : Management
+  Role        : Director (level 9)
+
+- Employee ID : HR001
+  Name        : Hana Lin
+  Email       : hr@orientaltea.com
+  Password    : hr123456
+  Department  : Management
+  Role        : HR / Editor (level 7)
+
+- Employee ID : ADM001
+  Name        : Adrian Zhang
+  Email       : admin@orientaltea.com
+  Password    : admin123
+  Department  : Management
+  Role        : Admin (level 8)
+
+[BOH Department - Tea Brewing & Kitchen]
+- Employee ID : BOH001
+  Name        : Master Ben Li
+  Email       : bohmanager@orientaltea.com
+  Password    : bohmanager123
+  Department  : BOH
+  Role        : BOH Manager / Master Brewer (level 6)
+
+- Employee ID : BOH002
+  Name        : Cara Zhao
+  Email       : cdp@orientaltea.com
+  Password    : cdp123
+  Department  : BOH
+  Role        : Chef de Partie - Pastry & Tea Snacks (level 4)
+
+- Employee ID : BOH003
+  Name        : Sam Zhou
+  Email       : sous@orientaltea.com
+  Password    : sous123
+  Department  : BOH
+  Role        : Sous Brewer (level 3)
+
+- Employee ID : BOH004
+  Name        : Bo Sun
+  Email       : bohcrew@orientaltea.com
+  Password    : bohcrew123
+  Department  : BOH
+  Role        : Kitchen & Tea Prep Crew (level 2)
+
+[FOH Department - Teahouse Service & Retail]
+- Employee ID : FOH001
+  Name        : Fiona Wang
+  Email       : fohmanager@orientaltea.com
+  Password    : fohmanager123
+  Department  : FOH
+  Role        : FOH Manager / Teahouse Director (level 5)
+
+- Employee ID : FOH002
+  Name        : Will Lucas
+  Email       : waiter@orientaltea.com
+  Password    : waiter123
+  Department  : FOH
+  Role        : Senior Tea Sommelier & Server (level 1)
+
+- Employee ID : FOH003
+  Name        : Bella Liu
+  Email       : barista@orientaltea.com
+  Password    : barista123
+  Department  : FOH
+  Role        : Lead Tea Barista (level 0)
+
+================================================================================
+2. HANDBOOK SECTIONS & DEPARTMENT VISIBILITY
+================================================================================
+
+Section ID  : sec-intro
+Title       : Company Introduction & Tea Heritage
+Order       : 1
+Visibility  : All (Visible to Management, BOH, FOH)
+
+Section ID  : sec-hr
+Title       : HR Policies & Workplace Ethics
+Order       : 2
+Visibility  : All (Visible to Management, BOH, FOH)
+
+Section ID  : sec-safety
+Title       : Food Safety, Hygiene & PASS Emergency SOPs
+Order       : 3
+Visibility  : All (Visible to Management, BOH, FOH)
+
+Section ID  : sec-brewing
+Title       : Master Tea Brewing & Kitchen SOPs
+Order       : 4
+Visibility  : BOH (Visible to BOH and Management)
+
+Section ID  : sec-foh-service
+Title       : Teahouse Service & Sommelier Protocols
+Order       : 5
+Visibility  : FOH (Visible to FOH and Management)
+
+================================================================================
+3. COMPLETE HANDBOOK DOCUMENTS (MARKDOWN CONTENTS)
+================================================================================
+
+--------------------------------------------------------------------------------
+Document ID : doc-welcome
+Section ID  : sec-intro
+Title       : Welcome to Oriental Tea House
+Order       : 1
+--------------------------------------------------------------------------------
+# Welcome to Oriental Tea House
+
+Welcome to Oriental Tea House. Founded with a deep passion for traditional tea craftsmanship and modern hospitality, our goal is to bring the art of tea brewing to every guest.
+
+## Our Philosophy
+
+1. **Mindfulness**: Every leaf is brewed with care and focused attention.
+2. **Purity**: We use only single-origin tea leaves and purified spring-standard water.
+3. **Warmth**: Every guest is greeted as a honored visitor in our teahouse.
+
+## How to Navigating the Handbook
+
+- **Left Sidebar**: Browse handbook sections designated for your department.
+- **Search Bar**: Quickly locate brewing specs, safety rules, or HR policies.
+- **FAQ Board**: Post questions for Management and Tea Masters.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-values
+Section ID  : sec-intro
+Title       : Core Values & Teahouse Etiquette
+Order       : 2
+--------------------------------------------------------------------------------
+# Core Values & Teahouse Etiquette
+
+## Respect for the Craft
+
+Respect the tea leaves, the teaware, and your team members. Handle handcrafted Yixing clay pots and porcelain gaiwans with utmost care.
+
+## Tranquility & Atmosphere
+
+Maintain a calm, soothing atmosphere in the teahouse. Keep voices moderate and ensure service is graceful and unhurried.
+
+## Cleanliness & Precision
+
+Water temperature and steeping duration directly determine tea flavor. Cleanliness of water kettles and tea vessels is non-negotiable.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-attendance
+Section ID  : sec-hr
+Title       : Attendance, Punctuality & Shift Scheduling
+Order       : 1
+--------------------------------------------------------------------------------
+# Attendance, Punctuality & Shift Scheduling
+
+## Shift Punctuality
+
+Staff must arrive 10 minutes prior to scheduled shift start in full clean uniform.
+
+## Leave Requests
+
+- Submit annual or personal leave requests at least 14 days in advance via the HR portal.
+- Sick leave requires notification to your Department Manager at least 3 hours before shift commencement, followed by a certified medical note.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-conduct
+Section ID  : sec-hr
+Title       : Professional Conduct & Anti-Harassment
+Order       : 2
+--------------------------------------------------------------------------------
+# Professional Conduct & Anti-Harassment
+
+## Workplace Dignity
+
+Oriental Tea House maintains zero tolerance for harassment, discrimination, or abusive conduct of any kind.
+
+## Grievance Escalation
+
+1. Discuss concerns directly with your Department Manager.
+2. If unresolved, submit a confidential report to HR (`hr@orientaltea.com`).
+3. HR will investigate and respond within 3 business days.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-hygiene
+Section ID  : sec-safety
+Title       : Food Safety & Personal Hygiene
+Order       : 1
+--------------------------------------------------------------------------------
+# Food Safety & Personal Hygiene
+
+## Hand Washing Protocols
+
+Wash hands thoroughly with anti-bacterial soap for at least 20 seconds:
+- Before entering tea preparation areas or handling tea leaves.
+- After handling cash, trash, or clearing tables.
+- After breaking or using restroom facilities.
+
+## Personal Appearance & Uniforms
+
+- Hair tied back neatly; hairnets required in Kitchen & Brewing areas.
+- No heavy perfume, scented lotion, or artificial fingernails that could taint delicate tea aromas.
+- Clean non-slip footwear required in all operational zones.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-emergency
+Section ID  : sec-safety
+Title       : Emergency Response & PASS Fire SOP
+Order       : 2
+--------------------------------------------------------------------------------
+# Emergency Response & PASS Fire SOP
+
+## Fire Extinguisher Usage (PASS Protocol)
+
+In case of a small electrical or kitchen fire, use the nearest designated fire extinguisher following **PASS**:
+
+1. **P**ull the safety pin.
+2. **A**im the nozzle at the base of the fire.
+3. **S**queeze the operating lever.
+4. **S**weep side-to-side across the base of the flame.
+
+## Evacuation Assembly Points
+
+- **Front of House Staff & Guests**: Main Courtyard Entry Plaza.
+- **Back of House Staff**: Rear Loading Dock Assembly Zone.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-water-temp
+Section ID  : sec-brewing
+Title       : Water Quality & Temperature Standards by Tea Type
+Order       : 1
+--------------------------------------------------------------------------------
+# Water Quality & Temperature Standards by Tea Type
+
+Precision temperature control is essential to extract optimal flavor notes without scalding delicate leaves.
+
+## Steeping Reference Table
+
+| Tea Category | Water Temp (°C) | Vessel Type | First Infusion Time |
+|---|---|---|---|
+| Green Tea (Dragon Well) | 80°C - 85°C | Glass / Fair Cup | 45 seconds |
+| White Tea (Silver Needle)| 85°C - 90°C | White Porcelain Gaiwan | 60 seconds |
+| Oolong (Tieguanyin / Da Hong Pao) | 95°C - 98°C | Yixing Clay Teapot | 30 seconds |
+| Black Tea (Lapsang / Keemun) | 95°C - 100°C | Porcelain / Clay | 45 seconds |
+| Pu-erh (Aged Ripe Pu-erh) | 100°C (Boiling) | Purple Clay Teapot | 20s (Flash Rinse First) |
+
+## Water Filtration Check
+
+Check water TDS (Total Dissolved Solids) daily using the digital meter. Acceptable range: 50 - 120 PPM.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-steeping-sop
+Section ID  : sec-brewing
+Title       : Loose-Leaf Storage & Clay Vessel Care SOP
+Order       : 2
+--------------------------------------------------------------------------------
+# Loose-Leaf Storage & Clay Vessel Care SOP
+
+## Storage Rules
+
+- Keep tea stored in airtight stainless steel tins away from direct sunlight, moisture, and pungent spices.
+- Matcha and delicate green teas must remain in refrigerated storage at 4°C - 6°C.
+
+## Yixing Teapot Care Rules
+
+- **Dedicated Clay Vessels**: Never use soap or detergent on Yixing clay pots. Clean with scalding water only.
+- Each clay pot is dedicated to a single tea category (e.g., roasted Oolong only) to preserve seasoned flavor profiles.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-kitchen-prep
+Section ID  : sec-brewing
+Title       : Teahouse Dim Sum & Snack Preparation SOP
+Order       : 3
+--------------------------------------------------------------------------------
+# Teahouse Dim Sum & Snack Preparation SOP
+
+## Tea Snack Pairing Guidelines
+
+- **Osmanthus Jelly**: Steam fresh batches daily; chill for 2 hours before serving.
+- **Mochi & Pastries**: Check freshness timestamps; serve with matching Green or Oolong tea recommendations.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-tea-ceremony
+Section ID  : sec-foh-service
+Title       : Tableside Tea Ceremony & Pouring Protocols
+Order       : 1
+--------------------------------------------------------------------------------
+# Tableside Tea Ceremony & Pouring Protocols
+
+## Gongfu Tea Service Sequence
+
+1. **Presentation**: Present the tea leaves in the aroma vessel to the guest for inspection.
+2. **Warming Teaware**: Pour hot water over the teapot and aroma cups to pre-heat vessels.
+3. **Rinse & Awaken**: Pour first quick rinse into the tea tray pet / drain cup.
+4. **Pouring Technique**: Pour from height in a smooth, continuous stream into the pitcher (Fair Cup) before serving guests to ensure even flavor density.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-customer-greeting
+Section ID  : sec-foh-service
+Title       : Guest Greeting & Tea Recommendation Script
+Order       : 2
+--------------------------------------------------------------------------------
+# Guest Greeting & Tea Recommendation Script
+
+## 10-Second Warm Welcome
+
+Greet guests upon entering: *"Welcome to Oriental Tea House. Are you looking for a refreshing brew or a traditional Gongfu tasting experience today?"*
+
+## Recommendation Guide
+
+- Guest seeking light & floral: Recommend **High Mountain Alishan Oolong**.
+- Guest seeking rich & earthy: Recommend **15-Year Aged Ripe Pu-erh**.
+- Guest seeking caffeine-free: Recommend **Chrysanthemum & Goji Infusion**.
+
+---
+
+--------------------------------------------------------------------------------
+Document ID : doc-pos-retail
+Section ID  : sec-foh-service
+Title       : Retail Sales, Loose Leaf Packaging & POS
+Order       : 3
+--------------------------------------------------------------------------------
+# Retail Sales, Loose Leaf Packaging & POS
+
+## Loose Leaf Sales SOP
+
+1. Weigh tea using calibrated digital scale (error margin within ±0.1g).
+2. Vacuum seal tin bags with oxygen absorber packets.
+3. Apply batch label indicating harvest year and origin.
+
+---
